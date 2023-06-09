@@ -7,6 +7,9 @@ namespace Streeta.API.Models
 {
     public class Cupom
     {
+        public Cupom(){
+            
+        }
         public Cupom(int? id, double porcentagem)
         {
             Id = id;

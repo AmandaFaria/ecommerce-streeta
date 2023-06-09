@@ -7,6 +7,9 @@ namespace Streeta.API.Models
 {
     public class Usuario
     {
+        public Usuario(){
+            
+        }
         public Usuario(int? id, string nome, string sobrenome, string email, string senha, string? telefone, string cep, string endereco, int numero, string? complemento)
         {
             Id = id;

@@ -7,6 +7,9 @@ namespace Streeta.API.Models
 {
     public class Vestuario
     {
+        public Vestuario(){
+            
+        }
         public Vestuario(int? id, string nome, double preco, string descricao, string cor, string tamanho, string imagem, Categoria categoria)
         {
             Id = id;

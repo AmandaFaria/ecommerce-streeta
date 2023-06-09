@@ -8,6 +8,9 @@ namespace Streeta.API.Models
 {
     public class Categoria
     {
+        public Categoria (){
+            
+        }
         public Categoria(int? id, string nome)
         {
             Id = id;

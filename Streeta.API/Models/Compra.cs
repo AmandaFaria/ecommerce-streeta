@@ -8,6 +8,9 @@ namespace Streeta.API.Models
 {
     public class Compra
     {
+        public Compra(){
+            
+        }
         public Compra(int? id, List<Vestuario> produtos, string status, DateTime dataCompra, Cupom? cupom, double valor, double valorFinal, Usuario usuario)
         {
             Id = id;

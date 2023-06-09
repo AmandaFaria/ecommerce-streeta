@@ -7,6 +7,10 @@ namespace Streeta.API.Models
 {
     public class Carrinho
     {
+        public Carrinho (){
+
+        }
+
         public Carrinho(int? id, List<Vestuario> produtos, int idUsuario)
         {
             Id = id;
