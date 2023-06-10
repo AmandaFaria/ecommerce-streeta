@@ -1,4 +1,5 @@
 using Streeta.API;
+using Streeta.API.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,8 +21,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
-app.UseAuthorization();
 
 app.MapControllers();
 
